@@ -1,0 +1,8 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    url: jdbc:mysql://172.16.101.85:3306/xh-dataportal?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: abc123
